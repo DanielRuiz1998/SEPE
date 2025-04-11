@@ -8,4 +8,9 @@
 	header('Location: '.$uri.'/dashboard/');
 	exit;
 ?>
+
+<footer>
+  <p>&copy; 2025 Alexander Ocampo Hernandez. Todos los derechos reservados.</p>
+</footer>
+
 Something is wrong with the XAMPP installation :-(
