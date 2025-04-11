@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="text-center">
+    <main class="form-signin">
+        <form name="altasForm" method="post" action="altas.php">
+            <h1 class="h3 mb-3 fw-normal">Registrar Nuevo Usuario</h1>
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingUsuario" name="usuario" placeholder="Usuario">
+                <label for="floatingUsuario">Usuario</label>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingClave" name="clave" placeholder="Clave">
+                <label for="floatingClave">Clave</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingNombre" name="nombre" placeholder="Nombre">
+                <label for="floatingNombre">Nombre</label>
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Guardar</button>
+        </form>
+    </main>
+</body>
+</html>
